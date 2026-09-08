@@ -1,63 +1,87 @@
-# 🏛️ The Architect — Claude Code & Cowork Skill
+# 🏛️ The Architect: Universal Autonomous Context Engine
 
-[![Standard: Claude Skill](https://img.shields.io/badge/Standard-Claude%20Skill-blueviolet.svg)](https://github.com/Bebbolus/claude-skill-the-architect)
+[![Standard: Universal Skill](https://img.shields.io/badge/Standard-Universal%20Skill-blue.svg)](https://github.com/Bebbolus/the-architect-md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Zero-Bloat](https://img.shields.io/badge/Architecture-Zero--Bloat%20%284%20Archetypes%29-green.svg)](https://github.com/Bebbolus/claude-skill-the-architect)
+[![Zero-Bloat](https://img.shields.io/badge/Architecture-4%20Core%20Archetypes-green.svg)](https://github.com/Bebbolus/the-architect-md)
+[![Compatible: DSH · Claude Code · Cursor · Antigravity · Goose](https://img.shields.io/badge/Compatibility-Universal%20Harnesses-purple.svg)](https://github.com/Bebbolus/the-architect-md)
 
-The official, zero-context-bloat **The Architect** skill packaged for **Claude Code**, **Cowork**, and native LLM skill directories.
+**The Architect** is an autonomous context engine and meta-orchestrator engineered for agentic IDEs and LLM harnesses. Operating under the **Model Workspace Protocol (MWP)** and the **Interpretable Context Methodology (ICM)**, it treats the LLM as a state compiler rather than a conversational chatbot.
 
-This skill transforms Claude into a deterministic **Systems Architect and Meta-Orchestrator** using the **Model Workspace Protocol (MWP)** and the **Interpretable Context Methodology (ICM)**. Instead of polluting conversational memory, it scaffolds structured directories, role contracts with invariant clauses (C1–C5), and compiles state directly to disk.
+Instead of polluting chat history with unbounded context, The Architect conducts an interactive triage, customizes directory topology, and compiles hyper-efficient operative sub-agents using **4 Core Generative Archetypes** and mandatory deliberation scratchpads.
 
 ---
 
-## ⚡ Instant Installation
+## ⚡ Core Paradigms
 
-### 1. Global Installation (Available across all your Claude Code projects)
-Copy or symlink this folder to your user's global Claude skills directory:
+1. **Prompt-as-Architecture**: Completely self-contained in a single Markdown file (`SKILL.md`). Zero third-party databases, zero runtime dependencies.
+2. **Interactive Triage & Topology Customization**: During State 1 of triage, The Architect asks the user explicitly how they wish to name and structure workspace folders, detailing their purpose and adapting to custom workflows.
+3. **4 Core Generative Archetypes (Anti-Context Bloat)**:
+   - **Maker (Curator)**: Definition-first extraction, MECE multi-target splitting, and atomic 1:1 Obsidian backlinks.
+   - **Checker (Auditor & Critic)**: 4-Front adversarial stress-testing (Contradictions, Hidden Assumptions, Counter-examples, Vagueness).
+   - **Recon (Explorer)**: Hypothesis-driven factual search with explicit execution traces.
+   - **Coder (Builder)**: Intent-gated surgical engineering with test-first verification.
+4. **Hyper-Efficient Sub-Agent Compilation**: Every generated sub-agent contract embeds strict negative constraints, C1–C5 operational invariant clauses, and `<scratchpad>` reasoning tags (`[THINK]`, `[OBSERVE]`, `[DECISION]`).
+5. **Obsidian Atomic Backlink Architecture**: Enforces single-concept atomic note naming, enabling native Obsidian backlinks to resolve hyper-connections without orphan nodes.
 
+---
+
+## 🚀 How to Execute
+
+### Option A: As an Agentic Skill (Claude Code, Antigravity, OpenCode, Goose)
+Place `SKILL.md` into your platform's native skills folder:
 ```bash
+# For Claude Code (Global)
 mkdir -p ~/.claude/skills/the-architect
 cp SKILL.md ~/.claude/skills/the-architect/SKILL.md
+
+# For DeepSeek Harness (DSH)
+cp SKILL.md /path/to/dsh/skills/the-architect/SKILL.md
 ```
-
-Or via git clone:
-```bash
-git clone https://github.com/Bebbolus/claude-skill-the-architect.git ~/.claude/skills/the-architect
-```
-
-### 2. Project-Local Installation (Specific repository)
-If you want to bundle The Architect directly in a single project repository:
-
-```bash
-mkdir -p .claude/skills/the-architect
-cp /path/to/claude-skill-the-architect/SKILL.md .claude/skills/the-architect/SKILL.md
-```
-
----
-
-## 🚀 How to Use
-
-Once installed, simply invoke The Architect inside Claude Code:
-
+Then invoke inside your session:
 ```text
 /the-architect
 ```
-or prompt directly:
-```text
-Activate The Architect to structure this workspace into an autonomous pipeline.
-```
 
-The Architect will immediately run its **Triage State Machine**:
-1. **State 0 (Environment Reconnaissance)**: Detects whether your workspace is Greenfield (new) or Brownfield (existing files) and asks how to treat existing files.
-2. **State 1 (Triage Depth Selection)**: One direct question asking whether you prefer **Fast Triage** (3 questions) or **Deep Consultative Triage** (Socratic interview).
-3. **Scaffolding Factory**: Deploys the standard directories (`0 - SISTEMA`, `1 - INBOX`, `2 - WORKFLOW`, `3 - CONOSCENZA`, `tmp/`) and the root pointer (`CLAUDE.md`).
-4. **4 Core Generative Archetypes**: Drives task execution through **Maker**, **Checker**, **Recon**, and **Coder** without overloading system context.
+### Option B: As a System Prompt or Initial Instruction
+Feed `SKILL.md` as the very first instruction in any clean workspace:
+```text
+Read SKILL.md and execute Phase 0 (Triage State Machine).
+```
 
 ---
 
-## 🔒 Zero Context Bloat Guarantee
+## 🧭 Triage & Workflow Lifecycle
 
-Unlike monolithic prompt packs that inject dozens of inactive roles into system memory, this skill is restricted strictly to the **4 generative archetypes** (<2.5k tokens), preventing context rot and preserving maximum cognitive bandwidth for complex reasoning.
+```
+[Start] ──► State 0: Environment Reconnaissance (Greenfield vs Brownfield)
+               │
+               ▼
+            State 1: Triage Depth Selection (Fast vs Deep)
+               │
+               ├─► Question 1: Core Objective & Deliverables
+               ├─► Question 2: Directory Naming & Topology Customization
+               └─► Question 3: Data Sources & Routing Rules
+               │
+               ▼
+            Scaffolding Factory (0_SYSTEM, 1_INBOX, 2_WORKFLOW, 3_KNOWLEDGE, tmp)
+               │
+               ▼
+            Derive Operatives from 4 Archetypes (Maker, Checker, Recon, Coder)
+               │
+               ▼
+            Closing Audit (Rule of Closure) ──► Factory Operational
+```
+
+---
+
+## 🔒 The 5 Operational Clauses (C1–C5)
+
+Every sub-agent and stage contract generated by The Architect enforces:
+- **C1 (Routing Fallback)**: Halt on missing data and consult the central map (`0_SYSTEM/CONTEXT.md`).
+- **C2 (Handoff State Protocol)**: Consolidate all state into assigned deliverables. Hydrate solely from briefs.
+- **C3 (Code-as-Action & Active Oblivion)**: Run disposable scripts in `tmp/` and delete them immediately after use.
+- **C4 (Territorial Confinement)**: Strictly respect directory boundaries; no unauthorized read/write.
+- **C5 (Iterative Guardrails)**: Maximum 3 consecutive self-correction attempts before human escalation.
 
 ---
 

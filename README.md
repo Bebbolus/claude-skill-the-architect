@@ -1,3 +1,5 @@
+> **⚠️ ARCHIVED / OBSOLETO.** This repository is deprecated. The canonical, maintained version of The Architect lives at **https://github.com/Bebbolus/the-architect**. Please use that repository instead.
+
 # 🏛️ The Architect: Universal Autonomous Context Engine
 
 [![Standard: Universal Skill](https://img.shields.io/badge/Standard-Universal%20Skill-blue.svg)](https://github.com/Bebbolus/the-architect-md)
